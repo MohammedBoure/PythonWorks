@@ -3,7 +3,7 @@ from time import sleep
 import functions
 from subprocess import run as srun
 
-def check_password(name,password,mac_address):
+def check_password(name,SSID,password,mac_address):
     profile.create(name,SSID,password,mac_address)
     profile.connect(name)
     sleep(1)
@@ -11,8 +11,6 @@ def check_password(name,password,mac_address):
         print(f"--------\npassword cracked:{password},SSID={SSID},filename={name}\n----------")
         return True
     return False
-    
-
 
 
 def check_connected():
@@ -20,11 +18,10 @@ def check_connected():
     return True if "255.255.255.0" in ob.stdout else False
     
 
-
-
 empty_limit = 5
-SSID = "D-Link"
-password_list = "password_4.txt"
+SSID = "Mi 11i"
+password_list = "passwords.txt"
+mac_address = "fe80::752d:989c:5d3d:bf42%8"
 
 
 
@@ -47,31 +44,10 @@ while run:
         print("empty_password")
         continue
     #--------check password------------------------
-    if check_password(name,password):
+    if check_password(name,SSID,password,mac_address):
         run = False
     name = str(int(name)+1)
-
-    
-    
-    
-
-
-
-
-
 
 
 passfile.close()
 
-
-
-
-
-
-
-
-#profile.delete(name,"aa")
-
-#profile.create("aa",SSID,password)
-
-#connect(name,SSID)
