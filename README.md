@@ -33,10 +33,6 @@ A collection of large-scale projects, categorized into various subdomains.
 ### Work Management
 - **flet/work-managment-1**: A project management tool built using Flet.
 
-### Hacking
-- **hashcat windows**: Tools and scripts for password cracking.
-- **password wifi search**: Utilities for finding Wi-Fi passwords.
-
 ### Kivy
 Projects developed using the Kivy framework:
 - **kivymd/work-managment-1**: Work management tool (version 1) with KivyMD.
@@ -48,15 +44,15 @@ Scripts and utilities for Linux environments:
 - **kali linux**: A collection of Kali Linux tools.
   - **aireplay-ng**: Scripts for wireless packet injection and testing.
 
----
-
-## my_work
-Personal projects and experiments.
 
 ---
 
 ## Simpleproject
 Smaller projects, categorized for simplicity.
+
+### Hacking
+- **hashcat windows**: Tools and scripts for password cracking.
+- **password wifi search**: Utilities for finding Wi-Fi passwords.
 
 ### Crypto
 Projects and scripts related to cryptography:
@@ -100,6 +96,10 @@ Unique and specialized projects developed for specific use cases:
 
 ### Trinker
 Experimental projects or utilities under development.
+
+
+## my_work
+Personal projects and experiments.
 
 ---
 
