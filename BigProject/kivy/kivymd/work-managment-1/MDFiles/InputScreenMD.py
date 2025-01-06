@@ -1,0 +1,86 @@
+code = '''
+<InputScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: 20
+        spacing: 20
+
+        MDTopAppBar:
+            title: "create profile"
+            elevation: 10
+
+        BoxLayout:
+            orientation: 'vertical'
+            spacing: 20
+            size_hint_y: None
+            height: self.minimum_height
+
+            
+
+'''         
+
+code = '''
+<InputScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: 20
+        spacing: 20
+
+        MDTopAppBar:
+            title: "Create Profile"
+            elevation: 10
+
+        ScrollView:
+            id: scroll_view
+            do_scroll_x: False
+            do_scroll_y: True
+            MDBoxLayout:
+                id: text_box
+                orientation: 'vertical'
+                size_hint_y: None
+                height: self.minimum_height
+                padding: [10, 10]
+                spacing: 20
+
+                MDTextField:
+                    id: input1
+                    hint_text: "Full name of the employee"
+
+                MDTextField:
+                    id: input2
+                    hint_text: "Number phone"
+
+                MDTextField:
+                    id: input3
+                    hint_text: "Date"
+
+                MDTextField:
+                    id: input4
+                    hint_text: "Type of car"
+
+                MDTextField:
+                    id: input5
+                    hint_text: "Description"
+
+                MDTextField:
+                    id: input6
+                    hint_text: "Been worked on"
+
+                MDTextField:
+                    id: input7
+                    hint_text: "Price"
+
+                MDRaisedButton:
+                    text: "Execute"
+                    size_hint_y: None
+                    height: "56dp"
+                    pos_hint: {'center_x': 0.5}
+                    on_release: root.execute()
+
+                MDRaisedButton:
+                    text: "Back to Main"
+                    size_hint_y: None
+                    height: "56dp"
+                    pos_hint: {'center_x': 0.5}
+                    on_release: app.change_screen("main")
+'''

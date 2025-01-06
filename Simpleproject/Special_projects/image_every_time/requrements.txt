@@ -1,0 +1,3 @@
+PIL
+win32gui
+win32con

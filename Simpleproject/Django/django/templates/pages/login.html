@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="/project/static/css/login.css"> <!-- ربط ملف CSS -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<body class="body">
+
+    <div class="login-container">
+        <h1 style="color:white;">login</h1>
+        <form id="loginForm" action="adminlogin" method="POST"> <!-- استخدم الاسم الصحيح هنا -->
+            <div class="divcenter">
+            <input type="text" id="username" name="username" required placeholder="Enter your username">
+            </div>
+            <div class="divcenter">
+            <input type="password" id="password" name="password" required placeholder="Enter your username">
+            </div>
+
+            <button type="submit">تسجيل الدخول</button>
+        </form>
+    </div>
+
+    <script src="project/static/js/login.js"></script> <!-- ربط ملف JavaScript -->
+</body>
+</html>

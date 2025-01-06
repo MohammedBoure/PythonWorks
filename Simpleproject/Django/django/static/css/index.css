@@ -1,0 +1,193 @@
+html, body {
+    height: 100%; /* Ensure the body takes up the full height */
+    margin: 0; /* Remove default margin */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    overflow-x: hidden;
+}
+.header{
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.header-menu{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    height: 50px;
+}
+.divnav{
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.divr{
+    display: flex;
+    align-items:center ;
+    justify-content:center ;
+}
+.ss{
+    width: 40px;
+    margin-top: 10px;
+}
+.titles{
+    color: white;
+    text-decoration: none;
+}
+.p{
+    color: white;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-right: 15px;
+}
+.divnav:hover{
+    background-color: rgb(32, 32, 32);
+    transition: 0.7s;
+    cursor: pointer;
+}
+.ha{
+    text-align: center;
+}
+.main1{
+    margin-top:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.container{
+    width: 80%;
+    height: 97%;
+    border: 1px solid rgb(158, 158, 158) ;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.containerlink{
+    text-decoration: none;
+    color: black;
+}
+.containerlink:hover{
+    cursor: pointer;
+}
+.img{
+    width: 100%;
+    height: 80%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.name {
+    margin-top: 0px; /* Remove space above the name */
+    margin-bottom: 0px; /* Optional: add space below if needed */
+    text-align: center; /* Center the text */
+    display: block; /* Make it a block element */
+    margin-top: 0;
+    text-decoration: none;
+    line-height: 2.5vh;
+}
+
+
+
+
+
+
+
+.bottompng{
+    width: 60px;
+    height: 50px;
+}
+.p-bo{
+    font-size: large;
+    color: white;
+    margin: 0;
+    text-align: center;
+    margin-top: 0;
+}
+.costum{
+    margin: 0;
+}
+.buttomdiv{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.p-bottom{
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.logo-name{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    scale: 1.4;
+}
+.catigories{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.arcslinks{
+    text-decoration: none;
+}
+.cat2{
+    display: flex;
+    gap: 40px;
+
+}
+.socialdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Change this from column to row */
+    gap: 5%;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.socials {
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Change this from column to row */
+    gap: 7%;
+    width: 40%;
+    height: 80px;border-radius: 20px;
+
+}
+.sociallink{
+    text-decoration: none;background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Change this from column to row */
+    gap: 7%;
+    width: 100%;
+    height: 80px;border-radius: 20px;
+
+}
+.psocial{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: white;
+}
+.socialspng{
+    width: 40px;
+}

@@ -1,0 +1,1 @@
+This algorithm is mostly used to prevent visibility behind walls.

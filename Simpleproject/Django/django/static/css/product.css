@@ -1,0 +1,235 @@
+html, body {
+    height: 100%; /* Ensure the body takes up the full height */
+    margin: 0; /* Remove default margin */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    overflow-x: hidden;
+}
+.header{
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.header-menu{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    height: 50px;
+}
+.video {
+    position: fixed; /* Fix the video in place */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Hide overflow */
+    z-index: -1; /* Send video behind other content */
+}
+.divnav{
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.divr{
+    display: flex;
+    align-items:center ;
+    justify-content:center ;
+}
+.ss{
+    width: 40px;
+    margin-top: 10px;
+}
+.titles{
+    color: white;
+    text-decoration: none;
+}
+.p{
+    color: white;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-right: 15px;
+}
+.main1{
+    margin-top:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.product{
+    width: 90%;
+    height: 100%;
+    margin: 5%;
+}
+.name {
+    margin-top: 0px; /* Remove space above the name */
+    margin-bottom: 0px; /* Optional: add space below if needed */
+    text-align: center; /* Center the text */
+    display: block; /* Make it a block element */
+    margin-top: 0;
+    text-decoration: none;
+    line-height: 2.5vh;
+}
+.table,th,td{
+    width: 70%;
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    margin-left: 5%;
+    margin-right:5%;
+    margin-bottom: 5%;
+    color: white;
+}
+.order{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 5%;
+    color: white;
+    opacity: 0.5;
+}
+.select{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 36px;
+    color: grey;
+    padding-left: 13px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: white;
+}
+.input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 36px;
+    padding-left: 12px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+.valid{
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 0cap;
+    border-radius: 10px;
+    height: 30px;
+    margin-top: 20px;
+    animation: colorChange 6s infinite;
+}
+@keyframes colorChange {
+    0% { background-color: rgb(248, 248, 248); }
+    50% { background-color: rgb(121, 121, 121); }
+    100% { background-color: rgb(255, 255, 255); } /* Loop back to the start */
+}
+
+
+
+
+
+
+.bottompng{
+    width: 60px;
+    height: 50px;
+}
+.p-bo{
+    font-size: large;
+    color: white;
+    margin: 0;
+    text-align: center;
+    margin-top: 0;
+}
+.costum{
+    margin: 0;
+}
+.buttomdiv{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.p-bottom{
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.logo-name{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    scale: 1.4;
+}
+.catigories{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.arcslinks{
+    text-decoration: none;
+}
+.cat2{
+    display: flex;
+    gap: 40px;
+
+}
+.socialdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Change this from column to row */
+    gap: 5%;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.socials {
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Change this from column to row */
+    gap: 7%;
+    width: 40%;
+    height: 80px;border-radius: 20px;
+
+}
+.sociallink{
+    text-decoration: none;background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Change this from column to row */
+    gap: 7%;
+    width: 100%;
+    height: 80px;border-radius: 20px;
+
+}
+.psocial{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: white;
+}
+.socialspng{
+    width: 40px;
+}yousra

@@ -1,0 +1,9 @@
+requests
+scapy
+geoip
+keyboard
+pygame
+sounddevice
+numpy
+wave
+pyaudio
