@@ -14,6 +14,9 @@ Welcome to my **Python Projects** repository! This repository contains a collect
   - [Crypto](#crypto)
   - [Django](#django)
   - [Network](#network)
+  - [Pygame](#pygame)
+  - [Special Projects](#special-projects)
+  - [Trinker](#trinker)
 - [SQL](#sql)
 
 ---
@@ -56,7 +59,8 @@ Personal projects and experiments.
 Smaller projects, categorized for simplicity.
 
 ### Crypto
-Projects and scripts related to cryptography.
+Projects and scripts related to cryptography:
+- **RSA.py**: Implementation of the RSA algorithm.
 
 ### Django
 - **django**: Web applications and tools built using the Django framework.
@@ -66,6 +70,36 @@ Networking-related scripts and tools:
 - **requests**: Utilities leveraging the Requests library.
 - **scapy**: Packet crafting and network analysis tools using Scapy.
 - **socket**: Low-level socket programming utilities.
+
+### Pygame
+Projects developed using the Pygame library for game development:
+- **3D representation of a ball using rays**: A visual simulation using rays.
+- **jump.py**: A script demonstrating jump mechanics in a game.
+- **LinesFromTheCenterMoveWithTheMouse**: Interactive graphical representation.
+- **ordr_list**: A game project with list-based logic.
+- **ordr_list.py**: Script for handling ordered lists.
+- **random_create_world.py**: Procedural world generation.
+
+### Special Projects
+Unique and specialized projects developed for specific use cases:
+- **BasicCommandRouting.py**: Command routing implementation.
+- **conter strike ak time shot.py**: Simulation of shooting timing in a game.
+- **Device_driver_by_time_control.py**: Time-based driver control.
+- **Esc.py**: Escape key utility.
+- **Filming with a camera every now and then.py**: Script for periodic camera capture.
+- **GetIP.py**: Utility to retrieve the IP address.
+- **MouseGravity.py**: Simulates mouse movements under gravity.
+- **Open_URL_In_BrowsUnit.py**: Open URLs in a browser unit.
+- **Press and hold SPACE.py**: Handles space key press and hold events.
+- **sound**: Sound-related utilities.
+- **timer_shutdown_if_not_movenent**: Timer to shutdown the system if no movement is detected.
+- **go_image_to_disk**: Utility for saving images to disk.
+- **image_every_time**: Tools for capturing images at intervals.
+- **live_images**: Live image streaming tools.
+- **Photography_every_time**: Photography scripts with periodic capture.
+
+### Trinker
+Experimental projects or utilities under development.
 
 ---
 
