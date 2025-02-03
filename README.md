@@ -12,11 +12,13 @@ Welcome to my **Python Projects** repository! This repository contains a collect
   - [my_work](#my_work)
   - [Hacking](#hacking)   
   - [Crypto](#crypto)
+  - [Hacking](#hacking)
   - [Django](#django)
   - [Network](#network)
   - [Pygame](#pygame)
   - [Special Projects](#special-projects)
   - [Trinker](#trinker)
+  - [my_work](#my_work)
 - [SQL](#sql)
 
 ---
